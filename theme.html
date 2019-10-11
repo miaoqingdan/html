@@ -50,7 +50,7 @@
 </style>
 <script>
     function setColor(color){
-        alert(color);
+        window.webkit.messageHandlers.setColor.postMessage(color);
     }
 </script>
 </head>
